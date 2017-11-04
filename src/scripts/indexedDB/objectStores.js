@@ -9,7 +9,6 @@ const storeOperations = (() => {
   }
 
   // Open database and create object stores
-  // Not using array for creatin object stores as different properties can be used to create indexes for different stores
   let dbPromise = idb.open('app-db', 1, (upgradeDb) => {
       if(!upgradeDb.objectStoreNames.contains('comments')) {
           upgradeDb.createObjectStore('comments', {keyPath: 'id'});
