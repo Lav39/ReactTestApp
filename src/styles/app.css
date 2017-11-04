@@ -1,0 +1,61 @@
+/*app styles*/
+#app {
+    height: 550px;
+    width: 500px;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #808080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app-container {
+    width: 100%;
+    height: 100%;
+}
+
+/*header styles*/
+h3 {
+    text-align: center;
+}
+
+/*timestamp container styles*/
+.timestamp-box {
+    width: 45%;
+    padding: 20px 12px 20px 12px;
+    display: inline-block;
+    font-size: 15px;
+    border-bottom: 2px solid #808080;
+}
+
+.timestamp-box:nth-of-type(odd) {
+    border-right: 2px solid #808080;
+}
+
+/* button styles*/
+button {
+    width: 45%;
+    height: 35px;
+    margin: 20px 0 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#unix-timestamp-container {
+    text-align: center;
+    padding: 50px;
+}
+
+#unix-timestamp-container > button {
+    width: 80%;
+    margin: 0;
+}
+
+/*custom styles*/
+.border-right {
+    border-right: 2px solid #808080;
+}
+
+.border-top {
+    border-top: 2px solid #808080;
+}
