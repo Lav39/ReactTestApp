@@ -12,9 +12,12 @@ class TimeStampContainer extends React.Component {
     }
 
     componentDidMount() {
-        config.apiList.forEach((api)=> {
+        // Delay of 5 secs after opening the activity
+        setTimeout(()=> {
+            config.apiList.forEach((api)=> {
             this.props.getData(api)
         });
+        },5000);
     }
 
     // Render timestamp blocks
