@@ -2,8 +2,8 @@ import React from 'react'
 import {connect} from 'react-redux';
 
 import Header from '../components/header.jsx';
-import TimeStampContainer from '../containers/timeStampContainer.jsx';
-import ButtonContainer from '../components/buttonContainer.jsx';
+import TimeStampContainer from '../containers/TimeStampContainer.jsx';
+import ButtonContainer from '../components/ButtonContainer.jsx';
 import UnixTimeStamp from '../containers/unixTimeStamp.jsx';
 import config from '../utilities/config';
 import appActions from '../actions/appActions';
