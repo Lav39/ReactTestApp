@@ -1,6 +1,6 @@
 import React from 'react';
 
-import config from '../utilities/config';
+import config from '/utilities/config';
 
 const ButtonContainer = (props) => {
     let getData = props.getData;
