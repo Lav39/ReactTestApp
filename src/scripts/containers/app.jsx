@@ -1,13 +1,13 @@
 import React from 'react'
 import {connect} from 'react-redux';
 
-import Header from '/components/header.jsx';
-import TimeStampContainer from '/containers/timeStampContainer.jsx';
-import ButtonContainer from '/components/buttonContainer.jsx';
-import UnixTimeStamp from '/containers/unixTimeStamp.jsx';
-import config from '/utilities/config';
-import appActions from '/actions/appActions';
-import storeOperations from '/indexedDB/objectStores';
+import Header from '../components/header.jsx';
+import TimeStampContainer from '../containers/timeStampContainer.jsx';
+import ButtonContainer from '../components/buttonContainer.jsx';
+import UnixTimeStamp from '../containers/unixTimeStamp.jsx';
+import config from '../utilities/config';
+import appActions from '../actions/appActions';
+import storeOperations from '../indexedDB/objectStores';
 
 class App extends React.Component {
     constructor(props) {

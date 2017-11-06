@@ -2,8 +2,8 @@ import React from 'react';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 
-import TimeStampInterface from '/components/TimeStampInterface.jsx';
-import config from '/utilities/config';
+import TimeStampInterface from '../components/TimeStampInterface.jsx';
+import config from '../utilities/config';
 
 class TimeStampContainer extends React.Component {
 
