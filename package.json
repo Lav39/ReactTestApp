@@ -4,7 +4,7 @@
   "description": "Interview project for UI developer with React + Redux",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && npm run build",
+    "start": "npm run build",
     "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot",
     "webpack": "webpack"
   },
