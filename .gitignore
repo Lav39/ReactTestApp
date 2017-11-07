@@ -5,4 +5,4 @@
 /README.MD
 /dist
 /package-lock.json
-/bundle.js
+/src/bundle.js

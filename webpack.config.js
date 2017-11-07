@@ -5,7 +5,7 @@ var SRC_DIR = path.resolve(__dirname, "src/scripts");
 var config = {
     entry: SRC_DIR + "/utilities/index.js",
     output: {
-        path: __dirname,
+        path: path.resolve(__dirname, "src"),
         filename: "bundle.js"
     },
     module: {
